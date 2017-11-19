@@ -1,0 +1,51 @@
+.containerr{
+	float: left;
+	position: relative;	
+	height: 100%;
+	width: 100%;
+}
+h3{
+	color: white;
+}
+.pusher{
+	padding: 10px;
+	/*width:120%;*/
+}
+.ui.visible.sidebar{
+	height: 100%;
+	display: block;
+ background: -moz-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(49,84,129,1)), color-stop(100%, rgba(39,107,130,1))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(125deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* ie10+ */
+  background: linear-gradient(325deg, rgba(39,107,130,1) 0%, rgba(49,84,129,1) 100%); /* w3c */
+  	width: 80%;
+	padding: 10px;
+}
+.content1{
+	/*background: #e6eaee;*/
+  	display: flex;
+  	padding: 10px;
+  	flex-shrink: 0;
+  	/*width:120%;*/
+}
+.content1 form{
+	position: relative;
+	flex-grow: 1;
+  	display: flex;
+}
+.content1 form *{
+	margin-right: 10px;
+}
+.content input {
+  border: none;
+  padding: 10px;
+  flex-grow: 1;
+}
+input{
+	flex-grow: 1;
+}
+button{
+	background-color: #013c9b;
+}

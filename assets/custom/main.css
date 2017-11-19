@@ -1,0 +1,122 @@
+/*body,html{
+	height:100%;
+	width:100%;
+	background-image: url("http://longwallpapers.com/Desktop-Wallpaper/landscape-images-For-Desktop-Wallpaper.png");
+	background-repeat: no-repeat;
+	position:center;
+	background-size:cover;
+	background-attachment: fixed;
+	margin-top: 100px;
+	color: white;
+}*/
+
+body{
+  color: cyan;
+}
+.chatdiv{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+   left: 90%;
+    bottom: 20%;
+}
+#first-header{
+    width:800px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+
+#chat-input {
+    position: fixed;
+    bottom: 0;
+    /*width: 100%;*/
+    display:inline
+    border: 0;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+    height: 55px;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    display: block;
+    margin-left: 15px;
+    margin-right: 55px;
+    background-color: rgba(0,0,0,0.0);
+}
+
+.ui .header .huge{
+  background-color: rgba(0,0,0,0.0);
+}
+
+.text {
+  float: left;
+  width: 34.8166666666%;
+  min-height: 109px;
+  margin: 500px 0 0 57.5989583333%;
+  padding: 30px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 200px;
+  font-size: 1em;
+  color: rgb(0, 0, 0);
+}
+
+.user-req{
+  display: inline-block;
+  padding: 15px 25px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  background-color: #efefef;
+  float: left;
+  margin-right: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+
+}
+
+/*
+#top, #left, #right, #bottom {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  background: red;
+}
+
+#top, #bottom {
+  width: 100%;
+  height: 20px;
+}
+
+#bottom {
+  top: auto;
+  bottom: 0;
+}
+
+#left, #right {
+  height: 100%;
+  width: 20px;
+}
+
+#right {
+  left: auto;
+  right: 0;
+}*/
+
+.result {
+  position: relative;
+  z-index: 1;
+  /*padding: 15px 25px;*/
+}
+
+p {
+  padding: 10px 0;
+}
