@@ -27,7 +27,7 @@ function getAns(Question,callback)
 	request.end();
 
 }
-
+const port=process.env.PORT||3000;
 app.get("/",function(req,res)
 {
 	res.render('index');
@@ -51,7 +51,7 @@ io.on('connection',function(socket){
 			console.log("Connection Disconnected");
 		});
 });
-server.listen(3000,function() {
+server.listen(port,function() {
 	console.log("Messenger Online....");
 });
 
